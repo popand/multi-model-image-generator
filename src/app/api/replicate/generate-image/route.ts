@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import Replicate from "replicate";
 
 const replicate = new Replicate({
-  auth: "r8_MyUCpqg3WooENlsOfNh0FW55LxWCYq11c7uz1",
+  auth: process.env.REPLICATE_API_TOKEN,
 });
 
 type ModelType = 'flux-pro' | 'flux-schnell' | 'ideogram';
