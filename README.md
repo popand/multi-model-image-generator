@@ -1,4 +1,4 @@
-# AI Image Generator
+# Image Generator
 
 A modern web application for generating AI-powered images using multiple state-of-the-art models. Built with Next.js 14, Firebase, and Replicate API.
 
